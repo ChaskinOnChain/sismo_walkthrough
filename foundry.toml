@@ -1,6 +1,13 @@
 [profile.default]
-src = "src"
-out = "out"
-libs = ["lib"]
+test            = "tests"                  # The test directory
+libs            = ["lib", "node_modules"]  # A list of library directories 
+optimizer       = false                    # Enable or disable the solc optimizer
+optimizer_runs  = 200                      # The number of optimizer runs
+verbosity       = 3                        # The verbosity of tests
+solc_version    = "0.8.19"                 # The solc version to use
 
-# See more config options https://github.com/foundry-rs/foundry/tree/master/config
+[rpc_endpoints]
+arbitrum_goerli = "${ARBITRUM_GOERLI_RPC_URL}"
+
+[etherscan]
+arbitrum_goerli = { key = "${ETHERSCAN_API_KEY}" }
