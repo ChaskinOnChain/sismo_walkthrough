@@ -10,13 +10,12 @@ Welcome to the Sismo Walkthrough repository! This project provides a hands-on gu
     - [Installation](#installation)
 3. [Building the App](#building-the-app)
 4. [Documentation](#documentation)
-5. [Contributing](#contributing)
-6. [License](#license)
-7. [Contact](#contact)
+5. [License](#license)
+6. [Contact](#contact)
 
 ## About The Project
 
-This repository will guide you through the process of creating a privacy-preserving, cross-chain token-gated NFT mint. The application enables the user to mint an NFT on Arbitrum Goerli, provided they hold Coinbase's 'Stand With Crypto Shield' NFT on Ethereum mainnet.
+This repository will guide you through the process of creating a privacy-preserving, cross-chain token-gated NFT mint. The application enables the user to mint an NFT on Arbitrum Goerli, provided they hold Coinbase's 'Stand With Crypto Shield' NFT on Ethereum mainnet. You can follow the accompanying [YouTube tutorial](https://www.youtube.com/watch?v=ztISBU-JwVw) for a more interactive walkthrough.
 
 ## Getting Started
 
